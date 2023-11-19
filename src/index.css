@@ -1,0 +1,53 @@
+/* import google font Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3rem;
+}
+
+/* container */
+.container {
+  width: min(100% - 4rem, 70rem);
+  margin-block: 40px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px 24px;
+}
+
+/* -------------------- */
+/* Video Card Component */
+/* -------------------- */
+
+/* images */
+img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* video details */
+.details {
+  display: grid;
+  grid-template-columns: 36px auto;
+  gap: 14px;
+}
+
+/* details title (h3 element) */
+h3 {
+  margin-block: 3px 6px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* details meta data (p elements) */
+.details p {
+  margin: 0;
+  color: #606060;
+  font-size: 14px;
+}
